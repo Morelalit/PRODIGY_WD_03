@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <title>Lalit Graphics & Design</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts/main.js" async></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="copyright-notice">Ⓒ Owen G. Miller, 2022. All rights reserved.</div>
+            <img src="images/header2(final).jpg" alt="Banner-pic" class="banner-pic" width="" height="100%" />
+        </div>
+
+        <div class="logo">
+            <img src="images/lalit1 (2).png" alt="Logo" class="logo" width="200px" height="150px" />
+        </div>
+
+        <!-- Consider moving nav buttons into the content class if making a version of the website for mobile!-->
+
+        <div class="content">
+            <div id="content-wrapper">
+                <div class="content-header" id="about-header">ABOUT ME</div>
+                <div class="content-header" id="projects-header">PROJECTS</div>
+                <div class="content-header" id="contact-header">CONTACT</div>
+
+                <div class="content-main" id="about-me-main">
+
+                    <div id="about-me-wrapper">
+                        <p>A website developer is a professional who specializes in creating, building, and maintaining
+                            websites. Their primary focus is on the technical aspects of website creation, including
+                            coding, designing, and implementing web applications.</p>
+                        <p>With kindest regards,</p>
+                        <br><br><br>
+                        <div class="signature-pic"><img src="images/signature.png" alt="Signature" /></div>
+                    </div>
+                    <div class="about-me-img"><img src="images/img.jpeg" alt="Profile-pic" height="350px" width="200px"
+                            class="profile-pic" /></div>
+                </div>
+
+
+                <div class="content-main" id="projects-main">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates maxime eligendi est. Sapiente
+                        neque doloremque dolore reiciendis dolores laudantium quisquam eum officiis, odit labore quaerat
+                        magnam, sunt ducimus? Repellat, debitis. Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Veritatis molestiae, provident reiciendis soluta harum magnam minima beatae perferendis
+                        eveniet voluptatem, error adipisci. Laudantium vero porro commodi nemo voluptatibus amet
+                        molestiae. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia dicta
+                        reprehenderit, impedit minima temporibus ipsum ut libero dolorum quos ratione beatae soluta
+                        provident assumenda architecto numquam pariatur quod, inventore eveniet! Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit. Amet reiciendis est quam excepturi doloremque, unde quidem,
+                        perspiciatis dolorem eligendi reprehenderit aliquid temporibus alias enim, autem saepe rem
+                        placeat? Ut, quam.</p>
+                </div>
+
+                <div class="content-main" id="contact-main">
+                    <!-- <p>Looking to get reach out? I'd be happy to hear from you! Please fill out the form below and I will be in touch as soon as I am able.</p> -->
+                    <div class="contact-form-div">
+                        <form class="contact-header-inputs">
+                            <input type="text" name="" placeholder="First Name..." required="required">
+                            <input type="text" name="" placeholder="Last Name..." required="required">
+                            <input type="text" name="" placeholder="E-mail..." required="required">
+                            <input type="text" name="" placeholder="Title..." required="required">
+                            <textarea placeholder="Message..."></textarea>
+                        </form>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="main-nav-buttons" class="main-nav-buttons">
+            <button id="about-btn" onclick="hdrDispBugCheck()">About</button>
+            <button id="projects-btn" onclick="hdrDispBugCheck()">Projects</button>
+            <button id="contact-btn" onclick="hdrDispBugCheck()">Contact</button>
+        </div>
+    </div>
+
+</body>
+
+</html>
